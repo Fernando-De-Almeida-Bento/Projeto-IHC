@@ -1,24 +1,14 @@
-*{
+html{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.logo {
-    margin-top: 10%;
+    background-color: #026fab;
 }
 
 img {
     width: 200px;
 }
 
-.icon {
+.icon{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -45,5 +35,93 @@ img {
     background-color: white;
     text-align: center;
     transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -20px 20px 20px rgba(0,0,0,0.5);
 }
 
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: rotate(0deg)skewy(-45deg);
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: -11px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transform: rotate(0deg) skewx(-45deg);
+}
+
+.btn:hover {
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+}
+
+#whatsapp:hover {
+    background-color: rgb(2, 202, 2);
+}
+
+#whatsapp:hover i {
+    background: transparent;
+}
+
+#whatsapp:hover::before, #whatsapp:hover::after {
+    background-color: rgb(2, 202, 2);
+}
+
+#instagram:hover {
+    background-color: #f1078b;
+}
+
+#instagram:hover i {
+    background: transparent;
+}
+
+#instagram:hover::before, #instagram:hover::after {
+    background-color: #f1078b;
+}
+
+#facebook:hover {
+    background-color: #1771E6;
+}
+
+#facebook:hover i {
+    background: transparent;
+}
+
+#facebook:hover::before, #facebook:hover::after {
+    background-color: #2d61a5
+}
+
+#slack:hover {
+    background-color: #972992;
+}
+
+#slack:hover i {
+    background: transparent;
+}
+
+#slack:hover::before, #slack:hover::after {
+    background-color: #972992;
+}
+
+#youtube:hover {
+    background-color: #ee0102;
+}
+
+#youtube:hover i {
+    background: transparent;
+}
+
+#youtube:hover::before, #youtube:hover::after {
+    background-color: #ee0102;
+}
