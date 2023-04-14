@@ -71,7 +71,7 @@ img {
 }
 
 #whatsapp:hover i {
-    background: transparent;
+    color: white;
 }
 
 #whatsapp:hover::before, #whatsapp:hover::after {
@@ -83,7 +83,7 @@ img {
 }
 
 #instagram:hover i {
-    background: transparent;
+    color: white;
 }
 
 #instagram:hover::before, #instagram:hover::after {
@@ -95,7 +95,7 @@ img {
 }
 
 #facebook:hover i {
-    background: transparent;
+    color: white;
 }
 
 #facebook:hover::before, #facebook:hover::after {
@@ -107,7 +107,7 @@ img {
 }
 
 #slack:hover i {
-    background: transparent;
+    color: white;
 }
 
 #slack:hover::before, #slack:hover::after {
@@ -119,9 +119,16 @@ img {
 }
 
 #youtube:hover i {
-    background: transparent;
+    color: white;
 }
 
 #youtube:hover::before, #youtube:hover::after {
     background-color: #ee0102;
+}
+
+.box img {
+    max-width:70px;
+    max-height:150px;
+    width: auto;
+    height: auto;
 }
