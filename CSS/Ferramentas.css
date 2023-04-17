@@ -1,9 +1,225 @@
-body {
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
     margin: 0;
-    background-image: url(/IMAGENS/PlanoDeFundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #026fab;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container .card2 {
+    position: relative;
+    padding: 18px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container .card3 {
+    position: relative;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container .card img {
+    transition: 0.5s;
+}
+
+.container .card2 img {
+    transition: 0.5s;
+}
+
+.container .card3 img {
+    transition: 0.5s;
+}
+
+.card img {
+    width: 200px;
+}
+.card2 img {
+    width: 150px;
+}
+
+.card3 img {
+    width: 120px;
+}
+
+.container .card h1 {
+    font-size: 2rem;
+}
+
+.container .card2 h1 {
+    font-size: 2rem;
+}
+
+.container .card3 h1 {
+    font-size: 2rem;
+}
+
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card2 .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card3 .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .content p {
+    color: white;
+    transition: 0.5s;
+}
+
+.container .card2 .content p {
+    color: white;
+    transition: 0.5s;
+}
+
+.container .card3 .content p {
+    color: white;
+    transition: 0.5s;
+}
+
+.container .card .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+
+.container .card2 .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+
+.container .card3 .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 50px;
+}
+
+.container .card:hover {
+    background-color: transparent;
+    color: black;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px black;
+}
+
+.container .card2:hover {
+    background-color: transparent;
+    color: black;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px black;
+}
+
+.container .card3:hover {
+    background-color: transparent;
+    color: black;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px black;
+}
+
+.container .card:hover .content p {
+    color: white;
+}
+
+.container .card2:hover .content p {
+    color: white;
+}
+
+.container .card3:hover .content p {
+    color: white;
+}
+
+.container .card:hover .content a {
+    color: white;
+}
+
+.container .card2:hover .content a {
+    color: white;
+}
+
+.container .card3:hover .content a {
+    color: white;
+}
+
+.box img {
+    width: 100px;
 }
