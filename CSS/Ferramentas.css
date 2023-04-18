@@ -140,7 +140,7 @@ h1{
     text-decoration: none;
     transition: 0.5s;
     outline: none;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .container .card2 .content a {
@@ -153,7 +153,7 @@ h1{
     text-decoration: none;
     transition: 0.5s;
     outline: none;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .container .card3 .content a {
@@ -165,8 +165,8 @@ h1{
     border-radius: 40px;
     text-decoration: none;
     transition: 0.5s;
-    outline: none;
-    margin-top: 50px;
+    outline: none; 
+    margin-top: 40px;  
 }
 
 .container .card:hover {
@@ -204,14 +204,17 @@ h1{
 
 .container .card:hover .content a {
     color: white;
+    box-shadow: 2px 20px 25px black;
 }
 
 .container .card2:hover .content a {
     color: white;
+    box-shadow: 2px 20px 25px black;
 }
 
 .container .card3:hover .content a {
     color: white;
+    box-shadow: 2px 20px 25px black;
 }
 
 .box img {
