@@ -1,33 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
+html {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #026fab;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+h1{
+    font-size: 35px;
     color: rgb(255, 255, 255);
     text-align: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 .container {
-    width: 1150px;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +24,7 @@ body {
 
 .container .card {
     position: relative;
-    padding: 10px;
+    padding: 5px;
     width: 300px;
     margin: 20px;
     border: 2px solid black;
@@ -48,7 +36,7 @@ body {
 
 .container .card2 {
     position: relative;
-    padding: 18px;
+    padding: 15px;
     width: 300px;
     margin: 20px;
     border: 2px solid black;
@@ -60,8 +48,8 @@ body {
 
 .container .card3 {
     position: relative;
-    padding: 30px;
-    width: 300px;
+    padding: 25px;
+    width: 280px;
     margin: 20px;
     border: 2px solid black;
     border-radius: 20px;
@@ -93,15 +81,15 @@ body {
     width: 120px;
 }
 
-.container .card h1 {
+.container .card h2 {
     font-size: 2rem;
 }
 
-.container .card2 h1 {
+.container .card2 h2 {
     font-size: 2rem;
 }
 
-.container .card3 h1 {
+.container .card3 h3 {
     font-size: 2rem;
 }
 
@@ -117,21 +105,27 @@ body {
 }
 
 .container .card3 .content {
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
 .container .card .content p {
+    display: flex;
+    margin-bottom: 50px;
     color: white;
     transition: 0.5s;
 }
 
 .container .card2 .content p {
+    display: flex;
+    margin-bottom: 50px;
     color: white;
     transition: 0.5s;
 }
 
 .container .card3 .content p {
+    display: flex;
+    margin-bottom: 30px;
     color: white;
     transition: 0.5s;
 }
@@ -221,5 +215,5 @@ body {
 }
 
 .box img {
-    width: 100px;
+    width: 90px;
 }
