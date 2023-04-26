@@ -1,6 +1,15 @@
+.bg {
+  background-image: url("3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 body {
-    background-color: gray;
     margin: 0 auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .carrossel {
@@ -15,6 +24,8 @@ body {
 }
 
 .description1{
+    margin: 10px;
+    background-color: black;
     padding: 0 10px;
     margin-bottom: 3vh;
     letter-spacing: 1px;
@@ -26,6 +37,8 @@ body {
   }
 
   .description2{
+    margin: 10px;
+    background-color: black;
     padding: 0 10px;
     margin-bottom: 3vh;
     line-height: 23px;
@@ -35,12 +48,37 @@ body {
   }
 
   .description3{
+    margin: 10px;
+    background-color: black;
     padding: 0 10px;
     margin-bottom: 3vh;
     line-height: 23px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #fff;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+  }
+
+  .carousel-inner {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
   }
 
   .btn {

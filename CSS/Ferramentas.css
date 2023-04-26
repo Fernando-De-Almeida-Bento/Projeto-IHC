@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
 html {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #026fab;
 }
+
+.bg {
+    background-image: url("fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 
 h1{
     font-size: 35px;
@@ -83,14 +91,17 @@ h1{
 
 .container .card h2 {
     font-size: 2rem;
+    color: white;
 }
 
 .container .card2 h2 {
     font-size: 2rem;
+    color: white;
 }
 
-.container .card3 h3 {
+.container .card3 h2 {
     font-size: 2rem;
+    color: white;
 }
 
 
@@ -170,21 +181,21 @@ h1{
 }
 
 .container .card:hover {
-    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(7, 158, 245), rgb(17, 54, 71));
     color: black;
     margin-top: -30px;
     box-shadow: 2px 20px 25px black;
 }
 
 .container .card2:hover {
-    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(53, 20, 220), rgb(68, 22, 136));
     color: black;
     margin-top: -30px;
     box-shadow: 2px 20px 25px black;
 }
 
 .container .card3:hover {
-    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(20, 220, 210), rgb(96, 22, 136));
     color: black;
     margin-top: -30px;
     box-shadow: 2px 20px 25px black;
@@ -218,5 +229,6 @@ h1{
 }
 
 .box img {
-    width: 90px;
+    width: 80px;
+    margin: 10px;
 }
