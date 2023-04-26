@@ -1,15 +1,15 @@
 body {
     background-color: gray;
-    margin: 0 auto;
-    width: 1300px;  
+    margin: 0 auto; 
 }
 
-.carrossel{
-    position: relative;
-    width: 980px;
-    overflow: hidden;
-    margin: 150px;
+.carrossel {
     display: flex;
+    position: absolute;
+    left: 25%;
+    width: 900px;
+    margin: 50px;
+    overflow: hidden;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
     border: 5px solid black;  
 }
@@ -21,6 +21,7 @@ body {
     line-height: 23px;
     font-family: Arial, Helvetica, sans-serif;
     font-family: 1.2em;
+    font-size: 18px;
     color: #fff;
   }
 
@@ -29,7 +30,7 @@ body {
     margin-bottom: 3vh;
     line-height: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
   }
 
@@ -38,11 +39,12 @@ body {
     margin-bottom: 3vh;
     line-height: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
   }
 
   .btn {
+    margin: 20px;
     display: flex;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
